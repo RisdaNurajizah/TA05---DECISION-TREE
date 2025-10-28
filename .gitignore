@@ -1,0 +1,46 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# === Virtual Environment ===
+venv/
+env/
+ENV/
+.venv/
+
+# === Jupyter Notebook checkpoints ===
+.ipynb_checkpoints/
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === Flask Specific ===
+instance/
+*.sqlite
+*.db
+
+# === Plot & Output Files ===
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# === Config & Cache ===
+*.cache
+*.ini
+*.cfg
+
+# === Model Files (kalau mau keep, hapus dari sini) ===
+decision_tree_zoo.pkl
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+
+# === Deployment Files ===
+*.env
